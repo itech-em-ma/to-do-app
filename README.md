@@ -46,7 +46,7 @@ Firebase CLI:
 `npm install -g firebase-tools`
 
 ### Angular doc
-[Link] (https://angular.io/docs)
+[Link](https://angular.io/docs)
 
 ### Firebase doc
-[Link] (https://firebase.google.com/docs)
+[Link](https://firebase.google.com/docs)
