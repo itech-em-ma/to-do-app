@@ -1,27 +1,52 @@
-# ToDoApp
+# Cheat Sheet
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.2.
+### NodeJS
+JavaScript runtime basierend auf der Chrome V8 JavaScript engine.
+Download und Installation:
+[NodeJS](https://nodejs.org/en/)
 
-## Development server
+### NPM
+Node Package Manager
+Durch die Installation von Node verfügbar
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Angular CLI
+Benötigit zum erstellen eines Angular Projekts und Komponenten durch die commandline. Sowie zum testing, bundling und deployment.
 
-## Code scaffolding
+`npm install -g @angular/cli`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Erstellen eines Angular Projekts
+[Officelles Set-Up](https://angular.io/guide/setup-local)
 
-## Build
+`ng new my-app-name`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### In das Projektverzeichnis wechseln und localen Server starten
 
-## Running unit tests
+`
+cd my-app
+ng serve --open
+`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+`--open` öffnet den Standardbrowser auf `http://localhost:4200/`
 
-## Running end-to-end tests
+### Firebase in Angular einfügen mit Angular CLI
+`ng g angular/fire`
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Angular CLI - Komponente erstellen
+`ng g c component-name`
 
-## Further help
+### Angular CLI - Klasse erstellen
+`ng g class class-name`
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Angular CLI - Service erstellen
+`ng generate service service-name`
+
+### Firebase
+[Link](https://firebase.google.com/)
+Firebase CLI:
+`npm install -g firebase-tools`
+
+### Angular doc
+[Link] (https://angular.io/docs)
+
+### Firebase doc
+[Link] (https://firebase.google.com/docs)
